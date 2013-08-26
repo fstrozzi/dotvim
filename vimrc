@@ -31,7 +31,7 @@ set shiftwidth=2
 set ts=2
 set backspace=2
 set backup
-set backupdir=~/.vim/tmp
+set backupdir=~/.vim/bkp
 set mouse-=a
 set diffopt+=iwhite
 set noerrorbells
