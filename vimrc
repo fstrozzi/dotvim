@@ -40,6 +40,7 @@ set nrformats+=alpha
 set wildmode=longest:full
 set wildmenu
 set hidden
+set autowrite
 "set list listchars=tab:→\ ,trail:·
 "set clipboard=unnamed " for MacVim
 
