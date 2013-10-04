@@ -43,3 +43,9 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "bundle/ultisnip-scala"]
+	path = bundle/ultisnip-scala
+	url = https://github.com/spiroid/vim-ultisnip-scala.git
