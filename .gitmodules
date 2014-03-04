@@ -49,3 +49,9 @@
 [submodule "bundle/ultisnip-scala"]
 	path = bundle/ultisnip-scala
 	url = https://github.com/spiroid/vim-ultisnip-scala.git
+[submodule "bundle/latex-suite"]
+	path = bundle/latex-suite
+	url = https://github.com/gerw/vim-latex-suite.git
+[submodule "bundle/vim-r-plugin"]
+	path = bundle/vim-r-plugin
+	url = https://github.com/jcfaria/Vim-R-plugin.git
