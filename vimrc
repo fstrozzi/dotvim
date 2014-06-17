@@ -48,9 +48,6 @@ set autowrite
 set t_Co=256
 colorscheme snappylight
 
-" status
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%l,%v][%p%%]\ [LEN=%L]
-
 " alternative mappings
 "map <Leader>n <plug>NERDTreeTabsToggle<CR>
 map <Leader>. :tabnext<CR>
@@ -96,6 +93,9 @@ let g:netrw_altv = 1
 
 " Default to tree mode
 let g:netrw_liststyle=3
+
+" Airline showing tabs and buffers
+let g:airline#extensions#tabline#enabled = 1
 
 " Change directory to the current buffer when opening files.
 set autochdir
