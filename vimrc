@@ -64,6 +64,7 @@ let g:vimclojure#ParenRainbow = 1
 " custom syntax highlighting
 au BufNewFile,BufRead *.thor set filetype=ruby
 au BUfNewFile,BufRead *.sbt set filetype=scala
+au BufNewFile,BufRead *.nf set filetype=groovy
 
 " Toggle Vexplore with Ctrl-E
 function! ToggleVExplorer()
