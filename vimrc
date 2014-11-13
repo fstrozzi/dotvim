@@ -7,8 +7,10 @@ filetype plugin indent on
 " visual settings
 set guifont=bitstream_vera_sans_mono:h13
 set autoindent
+set expandtab
 set smartindent
 set smarttab
+set softtabstop=2
 set cindent
 set spelllang=en_gb
 set nocompatible
