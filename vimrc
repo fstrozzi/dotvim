@@ -7,7 +7,7 @@ filetype plugin indent on
 " visual settings
 set guifont=bitstream_vera_sans_mono:h13
 set autoindent
-set expandtab
+"set expandtab
 set smartindent
 set smarttab
 set softtabstop=2
@@ -67,6 +67,7 @@ let g:vimclojure#ParenRainbow = 1
 au BufNewFile,BufRead *.thor set filetype=ruby
 au BUfNewFile,BufRead *.sbt set filetype=scala
 au BufNewFile,BufRead *.nf set filetype=groovy
+au BufNewFile,BufRead *.sparql set filetype=sparql
 
 " Toggle Vexplore with Ctrl-E
 function! ToggleVExplorer()
