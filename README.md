@@ -3,7 +3,14 @@ DotVim
 
 Personal VIM configurations, plugins and themes
 
-Install
+Quick Install
+-------
+
+```shell
+curl -sSL https://raw.githubusercontent.com/fstrozzi/dotvim/master/install.sh | bash
+```
+
+Manual Install
 -------
 
 ```shell
