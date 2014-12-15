@@ -109,9 +109,15 @@ if executable('ag')
   " Use ag over grep
   set grepprg=ag\ --nogroup\ --nocolor
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
+	let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
+				\ --ignore .git
+				\ --ignore .svn
+				\ --ignore .hg
+				\ --ignore .swp
+				\ --ignore .class
+				\ --ignore .DS_Store
+				\ --ignore "**/*.pyc"
+				\ -g ""'
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
 endif
@@ -122,3 +128,5 @@ nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 if has("autocmd")
 	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif "
+
+
