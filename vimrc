@@ -100,6 +100,7 @@ let g:netrw_liststyle=3
 
 " Airline showing tabs and buffers
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='molokai'
 
 " Change directory to the current buffer when opening files.
 set autochdir
