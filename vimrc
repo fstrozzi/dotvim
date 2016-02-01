@@ -48,7 +48,7 @@ set autowrite
 
 " colorscheme
 set t_Co=256
-colorscheme snappylight
+colorscheme termschool
 
 " alternative mappings
 "map <Leader>n <plug>NERDTreeTabsToggle<CR>
